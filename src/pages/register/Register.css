@@ -1,0 +1,67 @@
+.register {
+    height: calc(100vh - 50px); /* Topbar height: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../../../public/img/login-image.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.registerTitle {
+    font-size: 60px;
+    color: rgb(15, 85, 78);
+    font-family: fantasy, sans-serif;
+}
+
+.registerForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+    color: rgb(206, 247, 233);
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(40, 125, 125);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color:rgba(220, 213, 152, 0.95);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    background-color:rgba(40, 125, 125, 0.95);
+    cursor:pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
