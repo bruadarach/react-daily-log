@@ -5,10 +5,10 @@ const Login = () => {
         <div className="login">
             <span className="loginTitle">Login</span>
             <form className="loginForm">
-                <label htmlFor="Email">Email</label>
-                <input className="loginInput" type="text" placeholder='Enter your email'/>
-                <label htmlFor="Email">Password</label>
-                <input className="loginInput" type="password" placeholder='Enter your password'/>
+                <label htmlFor="email">Email</label>
+                <input id="email" className="loginInput" type="text" placeholder='Enter your email'/>
+                <label htmlFor="password">Password</label>
+                <input id="password" className="loginInput" type="password" placeholder='Enter your password'/>
                 <button className="loginButton">Login</button>
             </form>
             <button className='loginRegisterButton'>Sign Up</button>
