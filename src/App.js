@@ -9,12 +9,14 @@ import Register from './pages/register/Register';
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 
 function App() {
+
+  const user = false;
+
   return (
     <BrowserRouter>
       <TopBar/>
         <Routes>
           <Route path ="/" element={<Home />} />
-          <Route path ="/register" element={<Register />} />
           <Route path ="/register" element={<Register />} />
           <Route path ="/login" element={<Login />} /> 
           <Route path ="/write" element={<Write />} /> 
